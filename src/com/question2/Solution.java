@@ -19,4 +19,10 @@ public class Solution {
         }
         return ans;
     }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int result = solution.solution(new int[]{2, 6, 8, 5});
+        System.out.println(result); // 3
+    }
 }
